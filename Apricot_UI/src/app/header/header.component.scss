@@ -27,14 +27,19 @@ body {
     text-decoration: none;
     color: #d4a373;
     margin: 0 15px;
-    font-size: 18px;
+    font-size: 20px;
 }
 .nav a:hover {
-    color: #000;
+    color:#a3a36b;
+    font-weight: bold;
+    background-color: #ccc3c3;
+    z-index: 5%;
+    
+    border-radius: 5%;
 }
 
 .content {
-    padding: 20px;
+    padding: 10px;
 }
 .content h2 {
     font-size: 24px;

@@ -3,7 +3,7 @@
     color: white; /* Text color */
     padding: 40px 20px; /* Increased padding for better spacing */
     text-align: left;
-    height: 150px; /* Left-align text */
+    height: 280px; /* Left-align text */
 }
 
 .footer-container {
@@ -67,4 +67,17 @@
 .para{
     color:#3498db;
     text-align: left;
+}
+.tital{
+    font-weight: inherit;
+    color: #000;
+}
+.Developer{
+    margin-top: 20%;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.Developer i{
+    margin: 10%;
 }
