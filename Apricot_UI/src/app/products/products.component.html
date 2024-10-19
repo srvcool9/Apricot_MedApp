@@ -10,7 +10,7 @@
   [paginationPageSize]="20">                    
 </ag-grid-angular>
 </div>-->
-<div class="row">
+<!-- <div class="row">
   <div class="col-sm-4">
 
 <div class="card" style="width: 18rem;">
@@ -49,7 +49,7 @@
 </div>
 <!--fist row  end-->
 
-<div class="row">
+<!-- <div class="row">
   <div class="col-sm-4">
 
 <div class="card" style="width: 18rem;">
@@ -87,6 +87,20 @@
   </div>
 </div>
 </div>
+</div> -->
+
+
+
+<div class="row">
+  <div class="col-sm-4" *ngFor="let product of products">
+    <div class="card" style="width: 18rem;">
+      <img [src]="product.src" [alt]="product.alt" class="card-img-top" height="200">
+      <div class="card-body">
+        <div class="hading">{{ product.title }}</div>
+        <p class="card-text">{{ product.description }}</p>
+      </div>
+    </div>
+  </div>
 </div>
 
 <app-footer></app-footer>

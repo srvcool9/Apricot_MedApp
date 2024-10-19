@@ -52,3 +52,30 @@ img {
     width: auto;
     background-color: #f5f5e9;
   }
+/* Apricot Life Sciences Pvt Ltd Title Styling */
+.title-apricot {
+    font-family: 'Poppins', sans-serif;    /* Modern and professional font */
+    font-size: 42px;                       /* Large but balanced for corporate feel */
+    font-weight: 700;                      /* Bold for emphasis */
+    color: #FF7F50;                        /* Apricot-like color for branding */
+    text-align: center;                    /* Centered title */
+    text-transform: uppercase;             /* Uppercase for professionalism */
+    letter-spacing: 1.5px;                 /* Slightly reduced spacing for readability */
+    margin-top: 40px;                      /* Adjusted top margin */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15); /* Softer shadow for subtle depth */
+}
+
+.title-apricot .subtitle {
+    font-family: 'Poppins', sans-serif;    /* Same font for consistency */
+    font-size: 18px;                       /* Smaller font for subtitle */
+    font-weight: 500;                      /* Semi-bold for subtle emphasis */
+    color: #333;                           /* Darker color for formality */
+    text-align: center;                    /* Centered subtitle */
+    margin-top: 10px;                      /* Space between title and subtitle */
+}
+
+.title-apricot:hover {
+    color: #FFA07A;                        /* Lighter apricot color on hover */
+    transform: scale(1.03);                /* Slight zoom effect for interactivity */
+    transition: all 0.3s ease;             /* Smooth transition for hover effect */
+}

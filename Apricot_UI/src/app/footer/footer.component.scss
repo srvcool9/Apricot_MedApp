@@ -67,17 +67,23 @@
 .para{
     color:#3498db;
     text-align: left;
+    width: 45;
+    height: 50;
 }
 .tital{
     font-weight: inherit;
     color: #000;
 }
 .Developer{
-    margin-top: 20%;
     
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: italic;
 }
 .Developer i{
-    margin: 10%;
+    //margin: 10%;
 }
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
