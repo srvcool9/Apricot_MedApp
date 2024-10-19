@@ -27,6 +27,7 @@ export class ProductsComponent implements OnInit {
   products = [
     {
       alt: 'Event image of doctors at a press conference',
+     
       src: this.imageUrl1,
       height: 200,
       width: 300
