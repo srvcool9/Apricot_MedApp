@@ -42,12 +42,26 @@ body {
 }
 .banner-text {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 67%;
+    left: 52%;
     transform: translate(-50%, -50%);
     font-size: 36px;
     font-weight: bold;
     color: #555;
+    white-space: nowrap;
+    animation: moveAcrossScreen 10s linear infinite;
+}
+
+@keyframes moveAcrossScreen {
+    0% {
+        left: -100%; /* Start off-screen to the left */
+    }
+    50% {
+        left: 50%; /* Center the text */
+    }
+    100% {
+        left: 100%; /* End off-screen to the right */
+    }
 }
 .content {
     padding: 20px;

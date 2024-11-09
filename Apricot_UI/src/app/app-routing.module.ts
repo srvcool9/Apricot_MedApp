@@ -18,6 +18,10 @@ const routes: Routes = [{
 },{
   path:"aboutus",
   component: AboutusComponent
+},{
+  path: "**",  // Catch all undefined routes
+  redirectTo: '', // Redirect to home or specify another component
+  pathMatch: 'full'
 }
 ];
 

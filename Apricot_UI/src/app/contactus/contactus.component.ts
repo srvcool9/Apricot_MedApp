@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class ContactusComponent {
 
+
+  onSubmit($event){
+    alert("We will reach out to you shortly.");
+  }
 }
